@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282c34;
+    margin: 0px;
+}
+
+.links-container {
+    width:70%;    
+    border:2px solid black;
+    margin: 0 auto;
+    padding:10px;
+}
+.row {
+    height:100px; /*set height*/
+    border:2px solid blue;
+    width:100%;
+    height: 16em;
+    margin-bottom:10px;
+    padding:10px;
+}
+
+.bookmark-set{
+    padding: 1em;
+    background-color: #000000;
+    border-radius: 3px;
+    font-family: "Roboto Mono";
+    font-size: .85rem;
+    height: 16em;
+    margin: 0em .5em;
+}
+.bookmark-inner-container {
+    overflow-y: scroll;
+    height: 80%;
+    vertical-align: top;
+}
+.bookmark-title {
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ededed;
+    margin: 0em 0em .35em 0em;
+}
+
+.bookmark {
+    text-decoration: none;
+    color: #8c8c8b;
+    display:block;
+    margin: .4em 0em;
+}
+
+.col1 {
+    border:2px solid red;
+    width:100%;
+    height:100%;    
+}
+.col2 {
+    border:2px solid green;
+    width:49%;
+    float:left;
+    height:100%;
+    margin-right:2%;    
+}
+.col2:last-child {margin-right:0;  }
+.col3 {
+    border:2px solid brown;
+    width:18%;
+    float:left;
+    height:100%;
+    margin-right:2%;    
+}
+.col3:last-child {margin-right:0;  }
