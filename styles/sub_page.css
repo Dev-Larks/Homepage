@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body {
+    background-color: #282c34;
+}
+
+.bookmark-maintitle {
+    font-family: "Roboto";
+    font-size: 2.0rem;
+    font-weight: 600;
+    color: #88c0d0;
+    margin: 0em 0em .35em 0em;
+}
+
+ .bookmark-set{
+    padding: 1em;
+    background-color: #000000;
+    border-radius: 3px;
+    font-family: "Roboto Mono";
+    font-size: .85rem;
+    margin: 0em .5em;
+}
+
+.bookmark-title {
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ededed;
+    margin: 1.25em 0em .35em 0em;
+}
+
+ .bookmark {
+    text-decoration: none;
+    color: #8c8c8b;
+    display:block;
+    margin: .4em 0em;
+}
