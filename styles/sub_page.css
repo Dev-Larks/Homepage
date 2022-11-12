@@ -10,7 +10,7 @@ body {
     font-family: "Roboto";
     font-size: 2.0rem;
     font-weight: 600;
-    color: #BF616A;
+    color: #EBCB8B;
     margin: 0em 0em .35em 0em;
 }
 
@@ -27,13 +27,13 @@ body {
     font-family: "Roboto";
     font-size: 1.2rem;
     font-weight: 600;
-    color: #EBCB8B;
+    color: #ECEFF4;
     margin: 1.25em 0em .35em 0em;
 }
 
  .bookmark {
     text-decoration: none;
-    color: #ECEFF4;
+    color: #88C0D0;
     display:block;
     margin: .4em 0em;
 }
