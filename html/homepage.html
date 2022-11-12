@@ -11,121 +11,190 @@
     <link href="favicon.png" rel="shortcut icon" type="image/x-icon" />
 </head>
 <body>
-	<div class="links-container">
-    <div class="row">
-        <div class="col3">
-	        <div class="bookmark-set">
-                <div class="bookmark-title">PowerShell</div>
-		            <div class="bookmark-inner-container">
-			            <a class="bookmark" href="https://psweekly.dowst.dev/" target="_blank">Dowst PowerShell Weekly</a>
-		            </div>
-	        </div>
-	    </div>
-        <div class="col3">
-	        <div class="bookmark-set">
-	            <div class="bookmark-title">Ansible</div>
-	                <div class="bookmark-inner-container">
-		            </div>
-	        </div>
-	    </div>
-        <div class="col3">
-    	   <div class="bookmark-set">
-                <div class="bookmark-title">Docker</div>
-                    <div class="bookmark-inner-container">
-		                <a class="bookmark" href="https://hub.docker.com/r/pihole/pihole" target="_blank">pihole | DockerHub</a>
-		                <a class="bookmark" href="https://www.portainer.io/" target="_blank">Portainer</a>
-		                <a class="bookmark" href="https://docs.pi-hole.net/" target="_blank">Pi-hole documentation</a>
-                    </div>
+    <div class="container">
+        <div id="clock"></div>
+        <div class="weather-container">
+            <div class="row">
+                <div id="weather-description"class="inline"></div>
+                <div class="inline">-</div>
+                <div id="temp" class="inline"></div>
             </div>
         </div>
-        <div class="col3">
-	        <div class="bookmark-set">
-	            <div class="bookmark-title">GitHub</div>
-	                <div class="bookmark-inner-container">
-		                <a class="bookmark" href="https://dev-larks.github.io/" target="_blank">dev_larks.github.io</a>
-		                <a class="bookmark" href="https://github.com/Dev-Larks/.dotfiles" target="_blank">Dev_Larks GitHub</a>
-		                <a class="bookmark" href="https://gitlab.com/dwt1/dotfiles" target="_blank">DT Dotfiles · GitLab</a>
-		                <a class="bookmark" href="https://gitlab.com/OldTechBloke/dotfiles" target="_blank">OldTechBloke · GitLab</a>
-		            </div>
-	        </div>
-	    </div>
-        <div class="col3">
-            <div class="bookmark-set">
-                <div class="bookmark-title">Career & Learning</div>
-                    <div class=bookmark-inner-container">
-                        <a class="bookmark" href="https://" target="_blank"></a>
-                        <a class="bookmark" href="https://" target="_blank"></a>
+        <div class="links-container">
+            <div class="container-row">
+                <div class="col3">
+                    <div class="bookmark-set">
+                        <div class="bookmark-title">PowerShell</div>
+                            <div class="bookmark-inner-container">
+                                <a class="bookmark" href="https://psweekly.dowst.dev/" target="_blank">Dowst PowerShell Weekly</a>
+                            </div>
                     </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col3">
-		<div class="bookmark-set">
-          <div class="bookmark-title">Linux</div>
-                <div class="bookmark-inner-container">
-                    <a class="bookmark" href="https://www.linuxtoday.com/" target="_blank">LinuxToday</a>
-                    <a class="bookmark" href="https://dwm.suckless.org/" target="_blank">Suckless │  DWM</a>
-                    <a class="bookmark" href="hhttps://www.mankier.com/1/spectrwm" target="_blank">Spectrwm | Manpage</a>
-                    <a class="bookmark" href="https://libvirt.org/sources/virshcmdref/html-single/" target="_blank">Virsh | Reference</a>
-                    <a class="bookmark" href="https://www.linuxuprising.com/2020/02/how-to-keep-onedrive-in-sync-with.html" target="_blank">OneDrive │ Linux</a>
-		    <a class="bookmark" href="https://the.exa.website/introduction" target="_blank">Exa | Manpage</a>
-		    <a class="bookmark" href="https://www.nordtheme.com/" target="_blank">Nord Colour Palette</a>
+                </div>
+                <div class="col3">
+                    <div class="bookmark-set">
+                        <div class="bookmark-title">Ansible</div>
+                            <div class="bookmark-inner-container">
+                            </div>
                     </div>
-        </div>
-	</div>
-        <div class="col3">
-		<div class="bookmark-set">
-                <div class="bookmark-title">Arch Linux</div>
-                <div class="bookmark-inner-container">
-                   <a class="bookmark" href="https://www.archlinux.org/" target="_blank">Arch │ Homepage</a>
-                    <a class="bookmark" href="https://wiki.archlinux.org/" target="_blank">Arch │  Wiki</a>
-                    <a class="bookmark" href="https://www.archlinux.org/packages/" target="_blank">Arch | Packages</a>
-                    <a class="bookmark" href="https://aur.archlinux.org/" target="_blank">Arch | AUR Home</a>
-                    <a class="bookmark" href="https://bugs.archlinux.org/" target="_blank">Arch │  Bugs</a>
+                </div>
+                <div class="col3">
+                   <div class="bookmark-set">
+                        <div class="bookmark-title">Docker</div>
+                            <div class="bookmark-inner-container">
+                                <a class="bookmark" href="https://hub.docker.com/r/pihole/pihole" target="_blank">pihole | DockerHub</a>
+                                <a class="bookmark" href="https://www.portainer.io/" target="_blank">Portainer</a>
+                                <a class="bookmark" href="https://docs.pi-hole.net/" target="_blank">Pi-hole documentation</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="bookmark-set">
+                        <div class="bookmark-title">GitHub</div>
+                            <div class="bookmark-inner-container">
+                                <a class="bookmark" href="https://dev-larks.github.io/" target="_blank">dev_larks.github.io</a>
+                                <a class="bookmark" href="https://github.com/Dev-Larks/.dotfiles" target="_blank">Dev_Larks GitHub</a>
+                                <a class="bookmark" href="https://gitlab.com/dwt1/dotfiles" target="_blank">DT Dotfiles · GitLab</a>
+                                <a class="bookmark" href="https://gitlab.com/OldTechBloke/dotfiles" target="_blank">OldTechBloke · GitLab</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="bookmark-set">
+                        <div class="bookmark-title">Career & Learning</div>
+                            <div class="bookmark-inner-container">
+                                <a class="bookmark" href="https://" target="_blank"></a>
+                                <a class="bookmark" href="https://" target="_blank"></a>
+                            </div>
+                    </div>
                 </div>
             </div>
-	</div>
-        <div class="col3">
-<div class="bookmark-set">
-                <div class="bookmark-title">Social & Media</div>
-                <div class="bookmark-inner-container">
-                    <a class="bookmark" href="https://youtube.com/" target="_blank">Youtube</a>
-                    <a class="bookmark" href="https://odysee.com/" target="_blank">Odysee</a>
-                    <a class="bookmark" href="https://speedcafe.com.au/" target="_blank">Speedcafe</a>
-                    <a class="bookmark" href="https://" target+"_blank"></a>
+            <div class="container-row">
+                <div class="col3">
+                <div class="bookmark-set">
+                  <div class="bookmark-title">Linux</div>
+                        <div class="bookmark-inner-container">
+                            <a class="bookmark" href="https://www.linuxtoday.com/" target="_blank">LinuxToday</a>
+                            <a class="bookmark" href="https://dwm.suckless.org/" target="_blank">Suckless │  DWM</a>
+                            <a class="bookmark" href="hhttps://www.mankier.com/1/spectrwm" target="_blank">Spectrwm | Manpage</a>
+                            <a class="bookmark" href="https://libvirt.org/sources/virshcmdref/html-single/" target="_blank">Virsh | Reference</a>
+                            <a class="bookmark" href="https://www.linuxuprising.com/2020/02/how-to-keep-onedrive-in-sync-with.html" target="_blank">OneDrive │ Linux</a>
+                    <a class="bookmark" href="https://the.exa.website/introduction" target="_blank">Exa | Manpage</a>
+                    <a class="bookmark" href="https://www.nordtheme.com/" target="_blank">Nord Colour Palette</a>
+                            </div>
                 </div>
             </div>
-	</div>
-        <div class="col3">
-            <div class="bookmark-set">
-                <div class="bookmark-title">Mountain Biking</div>
-                    <div class="bookmark-inner-container">
-                        <a class="bookmark" href="https://flowmountainbike.com" target="_blank"<a>Flow MTB Magazine</a>
-                        <a class="bookmark" href="https://www.ambmag.com.au" target="_blank"<a>Australian MTB Magazine</a>
-                        <a class="bookmark" href="https://www.singletracks.com" target="_blank">Single Tracks MTB</a>
-                        <a class="bookmark" href="https://www.mbr.co.uk" target="_blank">MTB Rider Magazine (UK)</a>
-                        <a class="bookmark" href="https://wollongong.nsw.gov.au/about/bike-city/cringila-hills-mountain-bike-park" target="_blank">Cringila Hills MTB Park</a>
-                        <a class="bookmark" href="./mtb_trails.html" target="_blank">MTB Trails</a>
-                        <a class="bookmark" href="./mtb_shops.html" target="_blank">MTB Shops</a>
-                        <a class="bookmark" href="https://" target="_blank"></a>
-                        <a class="bookmark" href="https://" target+"_blank"></a>
+                <div class="col3">
+                <div class="bookmark-set">
+                        <div class="bookmark-title">Arch Linux</div>
+                        <div class="bookmark-inner-container">
+                           <a class="bookmark" href="https://www.archlinux.org/" target="_blank">Arch │ Homepage</a>
+                            <a class="bookmark" href="https://wiki.archlinux.org/" target="_blank">Arch │  Wiki</a>
+                            <a class="bookmark" href="https://www.archlinux.org/packages/" target="_blank">Arch | Packages</a>
+                            <a class="bookmark" href="https://aur.archlinux.org/" target="_blank">Arch | AUR Home</a>
+                            <a class="bookmark" href="https://bugs.archlinux.org/" target="_blank">Arch │  Bugs</a>
+                        </div>
                     </div>
             </div>
-	    </div>
-        <div class="col3">
-            <div class="bookmark-set">
-                <div class="bookmark-title">Bible Study</div>
-                    <div class="bookmark-inner-container">
-                        <a class="bookmark" href="https://netbible.org" target="_blank">Net Bible</a>
-                        <a class="bookmark" href="https://www.koorong.com/my-koorong/digital-library" target="_blank">Koorong</a>
-                        <a class="bookmark" href="https://" target="_blank"></a>
-                        <a class="bookmark" href="https://" target+"_blank"></a>
+                <div class="col3">
+        <div class="bookmark-set">
+                        <div class="bookmark-title">Social & Media</div>
+                        <div class="bookmark-inner-container">
+                            <a class="bookmark" href="https://youtube.com/" target="_blank">Youtube</a>
+                            <a class="bookmark" href="https://odysee.com/" target="_blank">Odysee</a>
+                            <a class="bookmark" href="https://speedcafe.com.au/" target="_blank">Speedcafe</a>
+                            <a class="bookmark" href="https://" target="_blank"></a>
+                        </div>
                     </div>
             </div>
-	    </div>
+                <div class="col3">
+                    <div class="bookmark-set">
+                        <div class="bookmark-title">Mountain Biking</div>
+                            <div class="bookmark-inner-container">
+                                <a class="bookmark" href="https://flowmountainbike.com" target="_blank">Flow MTB Magazine</a>
+                                <a class="bookmark" href="https://www.ambmag.com.au" target="_blank">Australian MTB Magazine</a>
+                                <a class="bookmark" href="https://www.singletracks.com" target="_blank">Single Tracks MTB</a>
+                                <a class="bookmark" href="https://www.mbr.co.uk" target="_blank">MTB Rider Magazine (UK)</a>
+                                <a class="bookmark" href="https://wollongong.nsw.gov.au/about/bike-city/cringila-hills-mountain-bike-park" target="_blank">Cringila Hills MTB Park</a>
+                                <a class="bookmark" href="./mtb_trails.html" target="_blank">MTB Trails</a>
+                                <a class="bookmark" href="./mtb_shops.html" target="_blank">MTB Shops</a>
+                                <a class="bookmark" href="https://" target="_blank"></a>
+                                <a class="bookmark" href="https://" target="_blank"></a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="bookmark-set">
+                        <div class="bookmark-title">Bible Study</div>
+                            <div class="bookmark-inner-container">
+                                <a class="bookmark" href="https://netbible.org" target="_blank">Net Bible</a>
+                                <a class="bookmark" href="https://www.koorong.com/my-koorong/digital-library" target="_blank">Koorong</a>
+                                <a class="bookmark" href="https://" target="_blank"></a>
+                                <a class="bookmark" href="https://" target="_blank"></a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
-</div>
+
+    <script>
+        // Search on enter key event
+        //document.getElementById("search-field").addEventListener("keydown",  event => { 
+        //    if (event.keyCode === 13) {
+        //        var val = document.getElementById("search-field").value;
+        //        window.open("https://google.com/search?q=" + val);
+        //    }
+        //});
+        // Get current time and format
+        getTime = () => {
+            let date = new Date(),
+                min = date.getMinutes(),
+                sec = date.getSeconds(),
+                hour = date.getHours();
+
+            return "" + 
+                (hour < 10 ? ("0" + hour) : hour) + ":" + 
+                (min < 10 ? ("0" + min) : min) + ":" + 
+                (sec < 10 ? ("0" + sec) : sec);
+        }
+
+        window.onload = () => {
+            let xhr = new XMLHttpRequest();
+            // Request to open weather map
+            xhr.open('GET', 'http://api.openweathermap.org/data/2.5/weather?id=4737316&units=imperial&appid=e5b292ae2f9dae5f29e11499c2d82ece');
+            xhr.onload = () => {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200) {
+                        let json = JSON.parse(xhr.responseText);
+                        console.log(json);
+                        document.getElementById("temp").innerHTML = json.main.temp.toFixed(0) + " F";
+                        document.getElementById("weather-description").innerHTML = json.weather[0].description;
+                    } else {
+                        console.log('error msg: ' + xhr.status);
+                    }
+                }
+            }
+            xhr.send();
+            // Set up the clock
+            document.getElementById("clock").innerHTML = getTime();
+            // Set clock interval to tick clock
+            setInterval( () => {
+                document.getElementById("clock").innerHTML = getTime();
+            },100);
+        }
+
+        document.addEventListener("keydown", event => {
+            if (event.keyCode == 32) {          // Spacebar code to open search
+                document.getElementById('search').style.display = 'flex';
+                document.getElementById('search-field').focus();
+            } else if (event.keyCode == 27) {   // Esc to close search
+                document.getElementById('search-field').value = '';
+                document.getElementById('search-field').blur();
+                document.getElementById('search').style.display = 'none';
+            }
+        });
+    </script>
 </body>
 </html>
 
