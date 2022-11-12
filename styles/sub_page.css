@@ -3,20 +3,20 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
 
 body {
-    background-color: #282c34;
+    background-color: #2E3440;
 }
 
 .bookmark-maintitle {
     font-family: "Roboto";
     font-size: 2.0rem;
     font-weight: 600;
-    color: #88c0d0;
+    color: #BF616A;
     margin: 0em 0em .35em 0em;
 }
 
  .bookmark-set{
     padding: 1em;
-    background-color: #000000;
+    background-color: #434C5E;
     border-radius: 3px;
     font-family: "Roboto Mono";
     font-size: .85rem;
@@ -27,13 +27,13 @@ body {
     font-family: "Roboto";
     font-size: 1.2rem;
     font-weight: 600;
-    color: #ededed;
+    color: #EBCB8B;
     margin: 1.25em 0em .35em 0em;
 }
 
  .bookmark {
     text-decoration: none;
-    color: #8c8c8b;
+    color: #ECEFF4;
     display:block;
     margin: .4em 0em;
 }
