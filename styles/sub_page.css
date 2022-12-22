@@ -37,3 +37,36 @@ body {
     display:block;
     margin: .4em 0em;
 }
+
+.section-title {
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ECEFF4;
+    margin: .85em 0em .85em 0em;
+}
+
+.collapsible {
+  background-color: #3B4252;
+  color: #ECEFF4;
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin: 1.5em 0em .35em 0em;
+}
+
+.active, .collapsible:hover {
+  background-color: #4c566a;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #434C5E;
+}
