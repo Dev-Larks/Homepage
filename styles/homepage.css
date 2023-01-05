@@ -49,6 +49,7 @@ body {
     margin: 0 auto;
     padding:10px;
 }
+
 .container-row {
     height:100px; /*set height*/
     border:2px solid #2e3440;
@@ -67,11 +68,13 @@ body {
     height: 16em;
     margin: 0em .5em;
 }
+
 .bookmark-inner-container {
     overflow-y: scroll;
     height: 80%;
     vertical-align: top;
 }
+
 .bookmark-title {
     font-family: "Roboto";
     font-size: 1.2rem;
@@ -80,6 +83,13 @@ body {
     margin: 0em 0em .35em 0em;
 }
 
+.bookmark-inner-title {
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ededed;
+    margin: .8em 0em .35em 0em;
+}
 .bookmark {
     text-decoration: none;
     color: #88c0d0;
