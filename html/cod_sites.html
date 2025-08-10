@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>CoD Websites</title>
+    <link rel="stylesheet" href="../styles/sub_page.css">
+    <link href="favicon.png" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+    <div class="bookmark-set">
+        <div class="bookmark-maintitle">Call of Duty</div>
+        <button class="collapsible"><div class="section-title">Call of Duty</div></button>
+        <div class="content">
+            <div class="bookmark-title">General</div>
+                <a class="bookmark" href="" target="_blank"></a>
+            <div class="bookmark-title">Mods</div>
+            <a class="bookmark" href="" target="_blank"></a>
+          <div class="bookmark-title">Forums</div>
+           <a class="bookmark" href="" target="_blank"></a>
+           <a class="bookmark" href="" target="_blank"></a>
+	       <a class="bookmark" href="" target="_blank"></a>
+       </div>
+
+    <button class="collapsible"><div class="section-title">Call of Duty 2</div></button>
+        <div class="content">
+            <div class="bookmark-title">General</div>
+                <a class="bookmark" href="" target="_blank"></a>
+            <div class="bookmark-title">Mods</div>
+            <a class="bookmark" href="" target="_blank"></a>
+          <div class="bookmark-title">Forums</div>
+           <a class="bookmark" href="" target="_blank"></a>
+           <a class="bookmark" href="" target="_blank"></a>
+	       <a class="bookmark" href="" target="_blank"></a>
+       </div>
+
+
+    <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

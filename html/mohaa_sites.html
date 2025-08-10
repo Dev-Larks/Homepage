@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>MOH Websites</title>
+    <link rel="stylesheet" href="../styles/sub_page.css">
+    <link href="favicon.png" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+    <div class="bookmark-set">
+        <div class="bookmark-maintitle">Medal of Honor</div>
+        <div class="bookmark-title">General</div>
+        <a class="bookmark" href="https://www.reddit.com/r/MOHAA/" target="_blank">Reddit MOHAA</a>
+        <button class="collapsible"><div class="section-title">Allied Assault</div></button>
+        <div class="content">
+            <div class="bookmark-title">General</div>
+                <a class="bookmark" href="http://www.mohaaaa.co.uk/AAAAMOHAA/" target="_blank">Amalgamated Allied Assault Alliance</a>
+                <a class="bookmark" href="https://www.mohaareunited.com/pages/downloads.html" target="_blank">MOHAA Revival Edition</a>
+            <div class="bookmark-title">Mods</div>
+            <a class="bookmark" href="hhttps://www.moddb.com/mods/hi-res-realism-texture-mod" target="_blank">Hi-Res Realism Texture mod</a>
+            <a class="bookmark" href="https://www.moddb.com/mods/surgical-operation-hd/downloads/surgical-operation01aformohaa" target="_blank">Surgical Operation mod</a>
+            <a class="bookmark" href="https://www.moddb.com/mods/the-complete-bots-mod-v40" target="_blank">The Complete Bots Mod v4.0</a>
+            <a class="bookmark" href="https://www.moddb.com/mods/mohaa-bots" target="_blank">MoHAA Bots</a>
+          <div class="bookmark-title">Forums</div>
+           <a class="bookmark" href="https://www.x-null.net/forums/forum.php" target="_blank">XNULL Forums</a>
+           <a class="bookmark" href="http://forums.mohaaaa.co.uk/" target="_blank">AAAA Forums</a>
+       </div>
+
+    <button class="collapsible"><div class="section-title">Breakthrough</div></button>
+        <div class="content">
+            <div class="bookmark-title">General</div>
+                <a class="bookmark" href="" target="_blank"></a>
+            <div class="bookmark-title">Mods</div>
+            <a class="bookmark" href="https://www.moddb.com/mods/medal-of-honor-kriegs-europa" target="_blank">Kriegs Europa</a>
+          <div class="bookmark-title">Forums</div>
+           <a class="bookmark" href="" target="_blank"></a>
+           <a class="bookmark" href="" target="_blank"></a>
+	       <a class="bookmark" href="" target="_blank"></a>
+       </div>
+
+       <button class="collapsible"><div class="section-title">Spearhead</div></button>
+        <div class="content">
+            <div class="bookmark-title">General</div>
+                <a class="bookmark" href="" target="_blank"></a>
+            <div class="bookmark-title">Mods</div>
+            <a class="bookmark" href="https://www.moddb.com/mods/trench-warfare1/downloads" target="_blank">Trench Warfare 1.185 Final Release</a>
+          <div class="bookmark-title">Forums</div>
+           <a class="bookmark" href="" target="_blank"></a>
+           <a class="bookmark" href="" target="_blank"></a>
+	       <a class="bookmark" href="" target="_blank"></a>
+       </div>
+
+       <button class="collapsible"><div class="section-title">Airborne</div></button>
+        <div class="content">
+            <div class="bookmark-title">General</div>
+                <a class="bookmark" href="" target="_blank"></a>
+            <div class="bookmark-title">Mods</div>
+            <a class="bookmark" href="https://www.moh.re/index" target="_blank">MOH Airborne Revived</a>
+            <a class="bookmark" href="https://www.moddb.com/mods/medal-of-honor-airborne-redux/news/medal-of-honor-airborne-redux-20" target="_blank">MOH Airborne ReduX v2.0</a>
+            <a class ="bookmark" href="https://www.nexusmods.com/games/medalofhonorairborne/mods" target="_blank">Nexxus Airborne Mods</a>
+          <div class="bookmark-title">Forums</div>
+           <a class="bookmark" href="" target="_blank"></a>
+           <a class="bookmark" href="" target="_blank"></a>
+	       <a class="bookmark" href="" target="_blank"></a>
+       </div>
+
+       <button class="collapsible"><div class="section-title">Pacific Assault</div></button>
+        <div class="content">
+            <div class="bookmark-title">General</div>
+                <a class="bookmark" href="" target="_blank"></a>
+            <div class="bookmark-title">Mods</div>
+            <a class="bookmark" href="https://www.nexusmods.com/games/medalofhonorpacificassault/mod" target="_blank">Photorealistic Mod</a>
+          <div class="bookmark-title">Forums</div>
+           <a class="bookmark" href="" target="_blank"></a>
+           <a class="bookmark" href="" target="_blank"></a>
+	       <a class="bookmark" href="" target="_blank"></a>
+       </div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
+
